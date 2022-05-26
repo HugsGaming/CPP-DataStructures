@@ -3,4 +3,5 @@ project(datastructures)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(datastructures main.cpp)
+add_executable(datastructures main.cpp src/arraylist.cpp)
+target_include_directories(datastructures PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)

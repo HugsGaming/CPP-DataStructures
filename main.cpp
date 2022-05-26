@@ -1,6 +1,7 @@
 #include <iostream>
+#include "arraylist.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    ArrayList<int> list;
     return 0;
 }
